@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@300;700&family=Roboto+Slab:wght@800&display=swap');
+.pages-part-one{
+    display: flex;
+    margin-top: 60px;
+}
+.Title{
+   text-align: center;
+   margin-right: 20px;
+}
+.pages-fotoCamera{
+    width: 450px;
+    height: 415px;
+    margin: 10px;
+    border-radius: 150px 1500px 150px 150px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.pages-btn{
+    margin-left: 65px;
+}
+.btn-btn-1{
+    padding: 0.8rem 2.5rem;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 200, 0, 0.922);
+    color: #fff;
+}
+.btn-btn{
+    padding: 0.8rem 2rem;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+}
+.paragraphe{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.span-color{
+    color: #aa6702fe;
+}
+.pages-titre{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 65px;
+}
+.pages-titre-dis{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Roboto Slab', serif; */
+}
+.Title{
+    margin-left: -330px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Photo*/
+
+
+.pages-photo{
+    margin-top: 40px ;
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    margin-left: 170px;  
+}
+.pages-photos{
+    width: 360px;
+    height: 250px;
+    margin-left: -92px;
+}
+.pages-jus{
+    width: 360px;
+    height: 250px;
+    margin-left: -96px;
+    text-align: center;
+    background: #f6f7fb;
+    border-radius: 4px;
+    overflow-x: hidden;
+}
+.pages-jus-one{
+    width: 360px;
+    height: 250px;
+    margin-left: -99px;
+    text-align: center;
+    background: #f6f7fb;
+    border-radius: 4px;
+    overflow-x: hidden;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.pages-photos-one{
+    width: 357px;
+    height: 250px;
+    margin-left: -99px;
+}
+.pages-photos-two{
+    width: 360px;
+    height: 250px;
+    margin-left: -96px;
+}
+.pages-price{
+    color: red;
+    font-family: sans-serif;
+}

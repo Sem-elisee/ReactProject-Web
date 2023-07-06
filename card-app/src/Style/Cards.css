@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f6f7fb;
+}
+.Header{
+    background-color: #050e18ea;
+    margin: -14px;
+    justify-content: space-between;
+    display: flex; 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+li{
+    font-size: 27px;
+    margin: 17px;
+    padding-left: 2px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cart{
+    font-size: 38px;
+    margin-top: 20px;
+    padding-top: 18px;
+    margin-right: 120px;
+    cursor: pointer;
+    color: #fff;
+}
+.card-name{
+    text-align: center;
+    margin: 40px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+/* .buttons{
+    display: flex;
+    justify-content: center;
+} */
+button{
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 4px ;
+    padding: 8px 15px;
+    cursor: pointer;
+    width: 83%;
+}
+/* butto {
+    border: 3px solid #008cff90;
+} */
+.contain{
+    justify-content: center;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 40px;
+    margin: 80px;
+}
+.table{
+    padding: 25px 19px;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.3); */
+}
+.itemsdetails{
+    padding-left: 210px;
+    display: flex;
+}
+
+.note{
+    background-color: green;
+    color: #fff;
+    border-radius:3px ;
+    font-size: 18px;
+    padding: 3px 4px;
+}
+.trash{
+    color: red;
+    font-size: 24px;
+    padding-bottom:1rem ;
+    cursor: pointer;
+    padding: 2px;
+}
+strong{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rest{
+    flex-direction: column;
+    display: flex;
+    padding-right: 60px;
+
+}
+.tables{
+    flex-direction: column;
+    display: flex;
+}
+.bob{
+    display: flex;
+    position: relative;
+    left: 94px;
+}
+td{
+    padding: 13px;
+}
+.face{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 40px;
+    padding: -20px;
+}
+.cart{
+    position: relative;
+}
+
+.cart svg{
+    position: relative;
+    font-size: 2rem;
+
+}
+
+/* .cart:before{
+    content: '0';
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.count{
+    position: absolute;
+    top: 10px;
+    right: -15px;
+    width: 25px;
+    height: 25px;
+    background-color: #007bff;
+    border-radius: 50%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    position: absolute;
+    top: 3.3rem;
+    right: -2rem;
+    left: -14.5rem;
+    width: 360px;
+    color: black;
+    height: 480px;
+    background: #f6f7fb;
+    box-shadow: 1px 4px 4px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.img{
+    height: 14rem;
+    width: 20rem;
+    border-radius: 4px;
+}
+.cow{
+    margin: 10px;
+    padding: -30px;
+    cursor: pointer;
+    top: 10px;
+}
+.article{
+    margin-left: 10px;
+}
+.cow:hover{
+    /* box-shadow: 1px 3px 3px rgba(0,0,0,0.3); */
+}
+.Pict{
+    height: 230px;
+    position: absolute;
+    width: 300px;
+    border-radius: 5px;
+    margin: 30px;
+    padding:-10px;
+    padding-left:10px;
+    left: 57px;
+    top: 1410px;
+}
+.items_img{
+    margin: -40px;
+}
+
+.cl{
+    position: relative;
+    left: 310px;
+    top: -1px;
+}
+.elmt{
+    position: relative;
+    /* margin: -120px;   
+    right: -128px;
+    top: 130px; */
+}
+.haut{
+    display: flex;
+     font-size: 14px;
+     align-items: center;
+     justify-content: space-between;
+    padding: 8px;
+    /* margin-bottom: 2rem; */
+
+}
+
+
+.photo{
+    position: relative;
+    width: 90px;
+    height: 79px;
+    border-radius: 3px;
+    left: 8px;
+    top: -34px;
+
+}
+.nam{
+    position: relative;
+    font-size: 20px;
+    left: 132px;
+    top: -145px;
+    display: flex;
+}
+.prix{
+    position: relative;
+    font-size: 20px;
+    top: -155px;
+    left: 132px;
+}
+.quant{
+    position: relative;
+    font-size: 20px;
+    top: -165px;
+    left: 132px;
+}
+.text01{
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+    top: 100px;
+}
+/* .style1{
+    border-top: 1px solid #0000;
+}
+.style2{
+    border-top: 1px solid #0000;
+} */

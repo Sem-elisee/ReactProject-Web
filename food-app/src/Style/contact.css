@@ -1,0 +1,61 @@
+
+.contact{
+    background-image: url(../Assets/contact-img/Img\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    
+}
+.contact-input{
+    margin-top: 58px;
+    align-items: center;
+    margin-right: 300px;
+}
+input{
+    width: 150%;
+    padding: 15px 8px;
+    margin: 6px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    margin-left: 40px;
+}
+input::placeholder{
+    position: absolute;
+    margin-left: 1px;
+    flex: 1;
+}
+.icon-input{
+    position: absolute;
+    margin-left: 322px;
+    margin-top: -38px;
+}
+.input-btn{
+    padding: 0.9rem 1.45rem;
+    background-color: rgb(214, 58, 58);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.input-btn-icon{
+    margin-left: 7px;
+    font-size: 20px;
+    transition: .4s;
+}
+.input-btn-icon:hover{
+    transform: translateX(.40rem);
+}
+.input-img-1{
+    margin-left: 270px;
+    width: 500px;
+    height: 330px;
+}

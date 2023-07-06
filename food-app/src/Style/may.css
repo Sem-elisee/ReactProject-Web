@@ -1,0 +1,75 @@
+.img1{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 520px;
+    height: 380px;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 70px;
+    border-radius: 6px;
+    background-image: url(../Assets/Img.jpg);
+}
+.img2{
+    background-image: url(../Assets/Img3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 550px;
+    height: 180px;
+    margin-top: 70px;
+    color: #fff;
+    margin-left: 45px;
+    border-radius: 6px;
+}
+.img3{
+    background-image: url(../Assets/Img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 550px;
+    height: 180px;
+    margin-top: 10px;
+    color: #fff;
+    margin-left: 45px;
+    border-radius: 6px;
+}
+.may-others{
+    display: flex;
+}
+h4{
+    margin-left: 40px ;
+}
+h4{
+    padding-top: 30px;
+}
+.may-name{
+    margin-right: 236px;
+}
+.may-name-one{
+    margin-right: 247px;
+}
+.may-name-two{
+    margin-right: 306px;
+}
+.may-body{
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+.may-btn{
+    color: #fff;
+    margin-left: -11px;
+    margin-top: 90px;
+    background-color: rgba(255, 200, 0, 0.922);
+    border: 0 solid;
+    font-size: 18px;
+    padding: 5px 8px;
+}
+.may-tiret{
+    background-color: #000;
+    flex: 1;
+    width: 50px;
+    height: 3px;
+    margin-left: 605px;
+}

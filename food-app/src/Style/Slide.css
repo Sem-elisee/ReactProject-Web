@@ -1,0 +1,66 @@
+
+.butt3{
+    margin-top: 50px;
+    background-color: rgba(255, 200, 0, 0.922);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 0 solid;
+    padding: 8px 55px ;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    top: -30px;
+    left: 55px;
+}
+.NomPizza{
+    position: relative;
+    top: 10px;
+    left: -35px;
+}
+.prixPizza{
+    position: relative;
+    top: -3px;
+    left: 85px;
+}
+.NomBurger{
+    position: relative;
+    top: 10px;
+    left: -26px;
+}
+.prixBurger{
+    position: relative;
+    top: -3px;
+    left: 60px;
+}
+.NomVegetarian{
+    position: relative;
+    top: 10px;
+    left: -15px;
+}
+.prixVegetarian{
+    position: relative;
+    top: -3px;
+    left: 60px;
+}
+.NomDrink{
+    position: relative;
+    top: 10px;
+    left: -45px;
+}
+.prixDrink{
+    position: relative;
+    top: -3px;
+    left: 60px;
+}
+.NomDessert{
+    position: relative;
+    top: 10px;
+    left: -15px;
+}
+.prixDessert{
+    position: relative;
+    top: -3px;
+    left: 60px;
+}
+

@@ -1,0 +1,29 @@
+.Food{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px
+}
+.manyfood-nom{
+    position: relative;
+    right: 14px;
+    top: -4px;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.manyfood-icon{
+    position: relative;
+    right: 8px;
+    top: -4px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.li1{
+    font-size: 23px;
+    padding: 20px;
+}
+.li1:hover{
+    color: red;
+}
+.tout{
+    margin-left: 4px;
+}
